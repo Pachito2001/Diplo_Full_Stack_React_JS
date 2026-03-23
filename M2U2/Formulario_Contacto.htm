@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+
+<body>
+    <h1>Contacto</h1>
+    <h3>Deja tus datos junto a tu consulta y te contactare lo antes posible</h3>
+    <form action="">
+        <p>
+            <label for="nom">Nombre y apellido</label>
+            <input type="text" name="nombre" placeholder="Nombre">
+        </p>
+        <p>
+            <input type="text" name="apellido" placeholder="Apellido">
+        </p>
+        <label for="sexo">Sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="hombre">
+                <label>Hombre</label>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="mujer">
+                <label>Mujer</label>
+            </li>
+        </ul>
+        <p>
+            <label for="num">Numero de telefono</label>
+            <input type="number" name="numero_telefonico" placeholder="...">
+        </p>
+        <p>
+            <label for="mail">Email</label>
+            <input type="text" name="email" placeholder="ejemplpo@gmail.com">
+        </p>
+        <label for="">Deja aqui tu consulta</label>
+        <textarea name="consulta" placeholder="Redacta aqui tu consulta"></textarea>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+
+</html>
