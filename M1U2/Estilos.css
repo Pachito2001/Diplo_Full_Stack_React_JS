@@ -1,0 +1,48 @@
+.cuerpo{
+    background-color: bisque;
+}
+
+.perfil_ft{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px black solid;
+    box-shadow: 7px 7px 5px #611ba2;
+}
+
+.cont{
+    display: flex;
+    text-align: center;
+    background-color: #8a2be2;
+    padding: 20px;
+    border: 1px black solid;
+}
+
+.a-d{
+    display: flex;
+}
+
+.principal{
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.cont-txt{
+    text-align: center;
+}
+
+.titulo{
+    margin-left: 40px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.left-bar{
+    padding: 7px;
+    background-color: aquamarine;
+    width: 300px;
+    height: auto;
+    border: 1px black solid;
+}
