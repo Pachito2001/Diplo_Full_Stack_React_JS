@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
 .cuerpo{
     background-color: bisque;
 }
@@ -45,4 +47,17 @@
     width: 300px;
     height: auto;
     border: 1px black solid;
+}
+
+.fecha {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.Icono-color{
+    color: purple;
+}
+
+p{ 
+    font-family: 'Cormorant Garamond', serif;
 }
